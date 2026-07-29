@@ -1,0 +1,8 @@
+{
+  "name": "Living Space Pro",
+  "description": "Custom Canopy Estimator & RAB Calculator for Living Space Pro",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
