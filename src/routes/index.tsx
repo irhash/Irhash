@@ -27,7 +27,7 @@ import {
   HardHat,
   KeyRound,
 } from "lucide-react";
-import heroImg from "@/assets/hero-canopy.jpg";
+import heroImg from "@/assets/video promosi.mp4";
 import kacaImg from "@/assets/kanopi-kaca.jpg";
 import alderonImg from "@/assets/kanopi-alderon.jpg";
 import polyImg from "@/assets/kanopi-polycarbonate.jpg";
