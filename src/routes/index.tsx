@@ -27,7 +27,7 @@ import {
   HardHat,
   KeyRound,
 } from "lucide-react";
-import heroImg from "@/assets/video-promosi.mp4";
+import heroImg from "@/assets/hero-canopy.jpg";
 import kacaImg from "@/assets/kanopi-kaca.jpg";
 import alderonImg from "@/assets/kanopi-alderon.jpg";
 import polyImg from "@/assets/kanopi-polycarbonate.jpg";
@@ -572,16 +572,13 @@ function LandingPage() {
            <div className="relative">
   <div className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-to-br from-primary/10 via-accent/10 to-transparent blur-2xl" />
   
-  <video
-    src={heroImg}
-    width={1024}
-    height={1024}
-    className="aspect-square w-full rounded-2xl object-cover shadow-2xl"
-    autoPlay
-    loop
-    muted
-    playsInline
-  />
+  <img
+              src={heroImg}
+              alt="Rumah modern dengan kanopi kaca elegan karya Living Space Pro"
+              width={1024}
+              height={1024}
+              className="aspect-square w-full rounded-2xl object-cover shadow-2xl"
+            />
 </div>
             />
             <div className="absolute -bottom-6 -left-6 hidden max-w-[220px] rounded-xl border border-border bg-card p-4 shadow-lg md:block">
